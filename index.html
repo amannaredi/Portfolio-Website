@@ -76,7 +76,7 @@
           <div class="box">
             <h1>CIFAR-10 Image Classification</h1>
             <p>
-              Developed a neural network model to classify images from the CIFAR-10 dataset with an accuracy of 90.06%. Utilized advanced techniques including adaptive pooling and leaky ReLU activations.
+              Developed a neural network model to classify images from the CIFAR-10 dataset with an accuracy of 90.06%.
             </p>
             <div class="links">
               <a href="https://github.com/amannaredi/ECS7026P_CIFAR_Dataset_Classification" target="_blank">Github Repo<i class="fas fa-arrow-right"></i></a>
@@ -130,5 +130,39 @@
         </div>
       </div>
     </section>
+    <!-- footer -->
+    <footer class="center">
+      <h1>Connect With Me</h1>
+      <div class="social_media_icons">
+        <a href="https://github.com/amannaredi" target="_blank" style="text-decoration: none">
+          <i class="fab fa-github tooltip"><span class="tooltiptext">GitHub</span></i>
+        </a>
+        <a href="mailto:naredi.aman5@gmail.com" target="_blank" style="text-decoration: none">
+          <i class="fas fa-envelope tooltip"><span class="tooltiptext">Email</span></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aman-naredi-0b64a5200/" target="_blank" style="text-decoration: none">
+          <i class="fab fa-linkedin tooltip"><span class="tooltiptext">LinkedIn</span></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script>
+      const toggle = document.getElementById("toggle");
+      const btn = document.getElementById("btn");
+      const links = document.querySelectorAll(".links");
+
+      btn.addEventListener("click", () => {
+        toggle.classList.toggle("active");
+      });
+      links.forEach(link => {
+        link.addEventListener("click", () => {
+          toggle.classList.remove("active");
+        })
+      });
+    </script>
+  </body>
+</html>
 
            
