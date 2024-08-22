@@ -32,14 +32,14 @@ blip/
 ├── imgs/                        # Directory containing example images
 ├── multiColumn/                 # Directory containing multi-column dataset files
 ├── out/                         # Directory for output files
-├── best_model_c2t.pth           # Best fine-tuned model for chart summarization
+├── last_model_c2t.pth           # Best fine-tuned model for chart summarization
 ├── vqa_last_model.pth           # Last fine-tuned model for VQA
-├── Blip2_chartToText.ipynb      # Notebook for chart summarization
-├── blip2_VQA.ipynb              # Notebook for VQA on chart data
+├── Blip2_Chart2text.ipynb       # Notebook for chart summarization
+├── Blip2_VQA.ipynb              # Notebook for VQA on chart data
 ├── chart-to-text_train1.json    # JSON file for training data (chart-to-text)
 ├── chart-to-text_val1.json      # JSON file for validation data (chart-to-text)
 ├── chart-to-text_test1.json     # JSON file for test data (chart-to-text)
-└── plotqa_dataPrep.ipynb        # Data preparation notebook for PlotQA dataset
+
 ```
 
 ## Running the Notebooks
@@ -48,7 +48,7 @@ You can run the Jupyter notebooks provided to fine-tune and evaluate the BLIP-2 
 
 ### 1. Chart Summarization
 
-Notebook: `Blip2_chartToText.ipynb`
+Notebook: `Blip2_Chart2text.ipynb`
 
 **Steps to run:**
 1. Open the notebook in Jupyter.
@@ -57,7 +57,7 @@ Notebook: `Blip2_chartToText.ipynb`
 
 ### 2. Visual Question Answering (VQA)
 
-Notebook: `blip2_VQA.ipynb`
+Notebook: `Blip2_VQA.ipynb`
 
 **Steps to run:**
 1. Open the notebook in Jupyter.
@@ -139,15 +139,5 @@ generated_text = processor.batch_decode(generated_ids, skip_special_tokens=True)
 print("Generated Summary: ", generated_text)
 ```
 
-## References
-
-- Smitha Upadhyaya, "BLIP-2 Visual to Text Fine-tuning," GitHub. Available: [Link](https://github.com/SmithaUpadhyaya/fashion_image_caption/blob/master/notebooks/blip2_visual-to-text.ipynb)
-- Dino Chio, "BLIP VQA Fine-tuning," GitHub. Available: [Link](https://github.com/dino-chiio/blip-vqa-finetune)
-- Li, J., Li, D., Savarese, S., & Hoi, S. C. (2023). "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models." arXiv preprint arXiv:2301.12597.
-- Masry, A., Long, D., Tan, J. Q., Joty, S., & Hoque, E. (2022). "ChartQA: A benchmark for question answering about charts with visual and logical reasoning." In Findings of the Association for Computational Linguistics: ACL 2022, pp. 1678-1690.
-- Liu, F., Eisenschlos, J. M., Piccinno, F., Krichene, S., Pang, C., Lee, K., Joshi, M., Chen, W., Collier, N., & Altun, Y. (2023). "Deplot: One-shot visual language reasoning by plot-to-table translation." In Findings of the Association for Computational Linguistics: ACL 2023.
-- Liu, F., Piccinno, F., Krichene, S., Pang, C., Lee, K., Joshi, M., Altun, Y., & Collier, N. (2023). "Matcha: Enhancing visual language pretraining with math reasoning and chart derendering." arXiv preprint arXiv:2212.09662v2.
-
----
 
 This README provides clear instructions for running your code, along with the necessary context for users to understand and use your models effectively. Make sure to update the links to the datasets and OneDrive models before sharing the repository.
