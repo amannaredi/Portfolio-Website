@@ -12,7 +12,7 @@ This repository contains the code and models for fine-tuning and evaluating the 
 
 The following datasets were used in this project:
 
-- **ChartQA Dataset**: [Link to Dataset](https://drive.google.com/drive/folders/1i-H5H8kokxXtNxRfwF4Pu0XTR28Ktb8W?usp=sharing)
+- **ChartQA Dataset**: [Link to Dataset](https://drive.google.com/drive/folders/1i-H5H8kokxXtNxRfwF4Pu0XTR28Ktb8W?usp=sharing
 )
 - **Chart-to-Text Dataset**: [Link to Dataset](https://drive.google.com/drive/folders/1Sdy-n_IzxCWpFDK0nQGk8rWlEOimgh6w?usp=sharing)
 
