@@ -20,7 +20,7 @@ The following datasets were used in this project:
 
 The pre-trained and fine-tuned models are stored in a OneDrive directory accessible only to QMUL account holders:
 
-- **[Model Files on OneDrive](#)**
+- **[Model Files on OneDrive](https://qmulprod-my.sharepoint.com/:f:/g/personal/ec23817_qmul_ac_uk/EoLMWGYgfq5DrCVVCxSwoycBJgs0JTDggn9pV99STLZ-xw?e=ZgvLL5)**
 
 ## Project Structure
 
